@@ -1,0 +1,48 @@
+name: meetup
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9  # Update to the latest version if needed
+  shared_preferences: ^2.2.0
+  neo4driver: ^1.0.7
+  http: ^0.13.6
+  graphql_flutter: ^5.0.0
+
+
+
+
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  assets:
+    - assets/login.svg
+    - assets/signup.svg
+
+
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
